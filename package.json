@@ -16,8 +16,9 @@
     "#*": "./*.js"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "pg": "^8.14.1"
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "supertest": "^7.1.0",
@@ -25,5 +26,21 @@
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "version": "1.0.0",
+  "description": "You've done a great job building an employee-management API with placeholder data. Now you can be trusted to build the API with a real database!",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelajohnson/fullstack-employees.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelajohnson/fullstack-employees/issues"
+  },
+  "homepage": "https://github.com/rafaelajohnson/fullstack-employees#readme"
 }
